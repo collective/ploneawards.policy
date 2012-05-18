@@ -1,0 +1,20 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="ploneawards.policy">
+
+  <five:registerPackage package="." initialize=".initialize" />
+
+  <include file="profiles.zcml" />
+  <include package="ploneawards.theme" />
+  <include package="ploneawards.contenttypes" />
+  <include package="fourdigits.dexteritycontenttypes" />
+  <include package="Products.PloneFormGen" />
+  <include package="fourdigits.portlet.twitter" />
+
+  <i18n:registerTranslations directory="locales" />
+
+  <!-- -*- extra stuff goes here -*- -->
+
+</configure>

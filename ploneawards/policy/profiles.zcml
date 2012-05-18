@@ -1,0 +1,22 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="ploneawards.policy">
+
+  <genericsetup:registerProfile
+      name="default"
+      title="Plone Awards Policy"
+      directory="profiles/default"
+      description="Installs the ploneawards.policy package"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+  <genericsetup:importStep
+      name="ploneawards.policy.various"
+      title="Plone Conf: miscellaneous import steps"
+      description="Various import steps that are not handled by GS import/export handlers."
+      handler="ploneawards.policy.setuphandlers.setupVarious">
+    <depends name="skins"/>
+  </genericsetup:importStep>
+
+</configure>
