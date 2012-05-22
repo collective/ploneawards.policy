@@ -31,6 +31,7 @@ setup(name='ploneawards.policy',
           'Products.PloneFormGen',
           'fourdigits.portlet.twitter',
           'Products.windowZ',
+          'collective.carousel',
           # -*- Extra requirements: -*-
       ],
       entry_points="""

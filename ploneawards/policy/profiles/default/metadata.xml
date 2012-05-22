@@ -8,5 +8,6 @@
     <dependency>profile-ploneawards.theme:default</dependency>
     <dependency>profile-fourdigits.portlet.twitter:default</dependency>
     <dependency>profile-Products.windowZ:default</dependency>
+    <dependency>profile-collective.carousel:default</dependency>
   </dependencies>
 </metadata>

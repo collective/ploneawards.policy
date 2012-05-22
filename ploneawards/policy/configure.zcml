@@ -12,7 +12,7 @@
   <include package="fourdigits.dexteritycontenttypes" />
   <include package="Products.PloneFormGen" />
   <include package="fourdigits.portlet.twitter" />
-
+  <include package="collective.carousel" />
   <i18n:registerTranslations directory="locales" />
 
   <!-- -*- extra stuff goes here -*- -->
