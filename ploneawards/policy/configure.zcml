@@ -9,8 +9,6 @@
   <include file="profiles.zcml" />
   <include package="ploneawards.theme" />
   <include package="ploneawards.contenttypes" />
-  <include package="fourdigits.dexteritycontenttypes" />
-  <include package="Products.PloneFormGen" />
   <include package="fourdigits.portlet.twitter" />
   <include package="collective.carousel" />
   <i18n:registerTranslations directory="locales" />

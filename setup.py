@@ -25,12 +25,9 @@ setup(name='ploneawards.policy',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          'fourdigits.dexteritycontenttypes',
           'ploneawards.theme',
           'ploneawards.contenttypes',
-          'Products.PloneFormGen',
           'fourdigits.portlet.twitter',
-          'Products.windowZ',
           'collective.carousel',
           # -*- Extra requirements: -*-
       ],
