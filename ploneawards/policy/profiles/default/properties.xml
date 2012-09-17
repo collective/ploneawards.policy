@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<site>
+ <property name="title">Plone Awards</property>
+ <property name="email_from_address"
+    type="string">info@ploneawards.com</property>
+ <property name="email_from_name" type="string">Plone Awards</property>
+ <property name="validate_email" type="boolean">False</property>
+ <property name="email_charset" type="string">utf-8</property>
+</site>

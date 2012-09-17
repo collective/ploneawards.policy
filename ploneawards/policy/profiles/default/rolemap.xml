@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rolemap>
+  <roles>
+    <role name="Anonymous"/>
+    <role name="Authenticated"/>
+    <role name="Contributor"/>
+    <role name="Editor"/>
+    <role name="Manager"/>
+    <role name="Member"/>
+    <role name="Owner"/>
+    <role name="Reader"/>
+    <role name="Reviewer"/>
+    <role name="Site Administrator"/>
+  </roles>
+  <permissions>
+    <permission name="Add portal member" acquire="False">
+      <role name="Anonymous"/>
+      <role name="Manager"/>
+      <role name="Owner"/>
+      <role name="Site Administrator"/>
+    </permission>
+    <permission name="ploneawards.contenttypes: Add Nomination" acquire="True">
+      <role name="Manager"/>
+      <role name="Member"/>
+    </permission>
+  </permissions>
+</rolemap>
