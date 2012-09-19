@@ -6,5 +6,6 @@
     <dependency>profile-ploneawards.theme:default</dependency>
     <dependency>profile-fourdigits.portlet.twitter:default</dependency>
     <dependency>profile-collective.carousel:default</dependency>
+    <dependency>profile-plone.app.caching:with-caching-proxy-splitviews</dependency>
   </dependencies>
 </metadata>
