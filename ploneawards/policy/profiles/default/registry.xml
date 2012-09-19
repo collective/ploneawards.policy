@@ -336,7 +336,9 @@
       <title>Domains</title>
       <value_type type="plone.registry.field.URI" />
     </field>
-    <value />
+    <value>
+	    <element>http://ploneawards.com</element>
+    </value>
   </record>
   <record field="enabled" interface="plone.cachepurging.interfaces.ICachePurgingSettings" name="plone.cachepurging.interfaces.ICachePurgingSettings.enabled">
     <field type="plone.registry.field.Bool">
