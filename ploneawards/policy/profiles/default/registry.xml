@@ -85,7 +85,7 @@
       <required>False</required>
       <title>Only cache for anonymous users</title>
     </field>
-    <value>False</value>
+    <value>True</value>
   </record>
   <record name="plone.app.caching.moderateCaching.etags">
     <field type="plone.registry.field.Tuple">
