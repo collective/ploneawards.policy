@@ -39,8 +39,14 @@ setup(name='ploneawards.policy',
           'ploneawards.contenttypes',
           'fourdigits.portlet.twitter',
           'collective.carousel',
-          # -*- Extra requirements: -*-
       ],
+      extras_require={
+          'test': [
+              'plone.app.testing',
+              'plone.testing',
+              'zope.component',
+          ],
+      },
       entry_points="""
       [z3c.autoinclude.plugin]
       target = plone
