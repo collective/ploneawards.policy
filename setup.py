@@ -1,24 +1,34 @@
-from setuptools import setup, find_packages
-import os
+# -*- coding:utf-8 -*-
+
+from setuptools import find_packages
+from setuptools import setup
 
 version = '0.2.dev0'
+long_description = (
+    open('README.rst').read() + '\n' +
+#    open('CONTRIBUTORS.rst').read() + '\n' +
+    open('CHANGES.rst').read()
+)
 
 setup(name='ploneawards.policy',
       version=version,
       description="ploneawards Policy",
-      long_description=open("README.txt").read() + "\n" +
-                       open(os.path.join("docs", "HISTORY.txt")).read(),
-      # Get more strings from
-      # http://pypi.python.org/pypi?:action=list_classifiers
+      long_description=long_description,
       classifiers=[
-        "Framework :: Plone",
-        "Programming Language :: Python",
-        ],
+          "Development Status :: 4 - Beta",
+          "Environment :: Web Environment",
+          "Framework :: Plone",
+          "Framework :: Plone :: 4.3",
+          "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python",
+          "Topic :: Software Development :: Libraries :: Python Modules",
+      ],
       keywords='',
       author='Maarten Kling',
       author_email='maarten@fourdigits.nl',
-      url='http://svn.plone.org/svn/collective/',
-      license='GPL',
+      url='https://github.com/collective/ploneawards.policy',
+      license='GPLv2',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['ploneawards'],
       include_package_data=True,
