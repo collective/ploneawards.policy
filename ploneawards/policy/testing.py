@@ -13,8 +13,8 @@ class Fixture(PloneSandboxLayer):
 
     def setUpZope(self, app, configurationContext):
         # Load ZCML
-        import collective.js.moment  # XXX: needed by fourdigits.portlet.twitter
-        self.loadZCML(package=collective.js.moment)
+        import fourdigits.portlet.twitter
+        self.loadZCML(package=fourdigits.portlet.twitter)
         import ploneawards.policy
         self.loadZCML(package=ploneawards.policy)
 
